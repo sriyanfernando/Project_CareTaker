@@ -23,7 +23,7 @@ public class OutputActivity extends AppCompatActivity {
         setContentView(R.layout.activity_output);
 
         textView =(TextView)findViewById(R.id.textchange);
-        imageView=(ImageView) findViewById(R.id.image_output_id);
+       // imageView=(ImageView) findViewById(R.id.image_output_id);
         imageGraphView=(ImageView) findViewById(R.id.image_graph_id);
 
         button=(Button)findViewById(R.id.check);
@@ -48,39 +48,48 @@ public class OutputActivity extends AppCompatActivity {
         });
 
         Random rnd = new Random();
-        int x=rnd.nextInt(1);
+        int x=rnd.nextInt(2);
         switch(x){
             case 0:
                 textView.setText("You are all good");
-                imageView.setImageResource(R.mipmap.happy);
-                int y=rnd.nextInt(1);
+               // imageView.setImageResource(R.mipmap.happy);
+                int y=rnd.nextInt(3);
                 switch (y){
                     case 0:
-                        imageGraphView.setImageResource(R.mipmap.ic);
+                        imageGraphView.setImageResource(R.mipmap.m);
                         break;
                     case 1:
-                        imageGraphView.setImageResource(R.mipmap.ip);
+                        imageGraphView.setImageResource(R.mipmap.n);
                         break;
+                    case 2:
+                        imageGraphView.setImageResource(R.mipmap.o);
+                        break;
+
 
                 }
                 //imageGraphView.setImageResource(R.mipmap.happy);
                 button.setText("Check with scale");
+                button.setTextColor(getApplication().getResources().getColor(R.color.colorWhite));
                 break;
             case 1:
                 textView.setText("We suspect you are depressed");
-                imageView.setImageResource(R.mipmap.worry);
-                int z=rnd.nextInt(1);
+               // imageView.setImageResource(R.mipmap.worry);
+                int z=rnd.nextInt(3);
                 switch (z){
                     case 0:
-                        imageGraphView.setImageResource(R.mipmap.ic);
+                        imageGraphView.setImageResource(R.mipmap.p);
                         break;
                     case 1:
-                        imageGraphView.setImageResource(R.mipmap.ip);
+                        imageGraphView.setImageResource(R.mipmap.q);
+                        break;
+                    case 2:
+                        imageGraphView.setImageResource(R.mipmap.r);
                         break;
 
                 }
                 //imageGraphView.setImageResource(R.mipmap.worry);
                 button.setText("Check with scale");
+                button.setTextColor(getApplication().getResources().getColor(R.color.colorWhite));
                 break;
 
 

@@ -14,6 +14,156 @@
         android:layout_height="wrap_content" />
 
 
+    <TextView
+        android:text="1. Feelings of Guilt"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Absent"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Feels i have let someone down"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Ideas of guilt"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Present illness is a punishment"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Hears voices and experiences threatening visual hailucinations"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <TextView
+        android:text="2. Suicide"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Absent"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Feels life is not worth living"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Wishes i was dead"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Suicidal ideas and gestures"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Attempts at suicide"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <TextView
+        android:text="3. Depressed Mood"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Absent"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="These feelings states indicated only on questioning"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="These feelings states spontaneously reported verbally"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Communicates feelings states nonverbally"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Reports virtually only"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="4. Weight Loss"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="No weight loss"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Sight or doubtful weight loss"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:text="Obvious or severe weight loss"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:background="@color/colorPrimary"
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">

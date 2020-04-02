@@ -25,6 +25,7 @@
         <activity android:name="com.example.android.datafrominternet.OutputActivity" />
         <activity android:name="com.example.android.datafrominternet.MeetActivity"/>
         <activity android:name="com.example.android.datafrominternet.CheckScaleActivity"/>
+        <activity android:name="com.example.android.datafrominternet.ResultActivity"/>
 
     </application>
 
