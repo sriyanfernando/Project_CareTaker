@@ -1,4 +1,4 @@
-package com.example.android.datafrominternet.UI;
+package com.example.android.datafrominternet.FrontEnd;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

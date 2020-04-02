@@ -12,20 +12,20 @@
         android:label="CareTaker"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.android.datafrominternet.UI.SplashActivity">
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.datafrominternet.UI.MainActivity"/>
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.MainActivity"/>
 
-        <activity android:name="com.example.android.datafrominternet.UI.ContactActivity"/>
-        <activity android:name="com.example.android.datafrominternet.UI.OutputActivity" />
-        <activity android:name="com.example.android.datafrominternet.UI.MeetActivity"/>
-        <activity android:name="com.example.android.datafrominternet.UI.CheckScaleActivity"/>
-        <activity android:name="com.example.android.datafrominternet.UI.ResultActivity"/>
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.ContactActivity"/>
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.OutputActivity" />
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.MeetActivity"/>
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.CheckScaleActivity"/>
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.ResultActivity"/>
 
     </application>
 

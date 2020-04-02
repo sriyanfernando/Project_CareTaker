@@ -1,4 +1,4 @@
-package com.example.android.datafrominternet.UI;
+package com.example.android.datafrominternet.FrontEnd;
 
 import android.app.Activity;
 import android.content.Intent;
