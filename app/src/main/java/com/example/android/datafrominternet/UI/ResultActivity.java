@@ -1,8 +1,10 @@
-package com.example.android.datafrominternet;
+package com.example.android.datafrominternet.UI;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import com.example.android.datafrominternet.R;
 
 import java.util.Random;
 

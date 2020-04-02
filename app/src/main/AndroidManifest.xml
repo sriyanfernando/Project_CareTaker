@@ -12,20 +12,20 @@
         android:label="CareTaker"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.android.datafrominternet.SplashActivity">
+        <activity android:name="com.example.android.datafrominternet.UI.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.datafrominternet.MainActivity"/>
+        <activity android:name="com.example.android.datafrominternet.UI.MainActivity"/>
 
-        <activity android:name="com.example.android.datafrominternet.ContactActivity"/>
-        <activity android:name="com.example.android.datafrominternet.OutputActivity" />
-        <activity android:name="com.example.android.datafrominternet.MeetActivity"/>
-        <activity android:name="com.example.android.datafrominternet.CheckScaleActivity"/>
-        <activity android:name="com.example.android.datafrominternet.ResultActivity"/>
+        <activity android:name="com.example.android.datafrominternet.UI.ContactActivity"/>
+        <activity android:name="com.example.android.datafrominternet.UI.OutputActivity" />
+        <activity android:name="com.example.android.datafrominternet.UI.MeetActivity"/>
+        <activity android:name="com.example.android.datafrominternet.UI.CheckScaleActivity"/>
+        <activity android:name="com.example.android.datafrominternet.UI.ResultActivity"/>
 
     </application>
 

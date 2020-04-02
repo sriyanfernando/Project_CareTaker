@@ -1,4 +1,4 @@
-package com.example.android.datafrominternet;
+package com.example.android.datafrominternet.UI;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.annotation.Nullable;
 import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
+
+import com.example.android.datafrominternet.R;
 
 public class MeetActivity  extends Activity implements View.OnClickListener{
 
@@ -21,7 +23,7 @@ public class MeetActivity  extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        Intent i = new Intent(this,MainActivity.class);
+        Intent i = new Intent(this, MainActivity.class);
         this.startActivity(i);
     }
 }

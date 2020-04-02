@@ -13,23 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.datafrominternet;
+package com.example.android.datafrominternet.UI;
 
-import android.content.Context;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 import android.content.Intent;
 
-import com.example.android.datafrominternet.utilities.NetworkUtils;
-
-import java.io.IOException;
-import java.net.URL;
+import com.example.android.datafrominternet.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -125,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
         int menuItemThatWasSelected=item.getItemId();
 
         if(menuItemThatWasSelected == R.id.action_meet){
-            Intent intent= new Intent(this,MeetActivity.class);
+            Intent intent= new Intent(this, MeetActivity.class);
             this.startActivity(intent);
             return true;
 
@@ -143,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(menuItemThatWasSelected == R.id.action_contact){
             //Activty navigation when clicked happened
-            Intent i = new Intent(this,ContactActivity.class);
+            Intent i = new Intent(this, ContactActivity.class);
             this.startActivity(i);
             return true;
         }
