@@ -25,11 +25,6 @@ public class ContactActivity extends Activity  {
         final Intent intent= new Intent();
         intent.setClass(ContactActivity.this, MainActivity.class);
 
-        // mBackButton.setOnClickListener(this);
-
-       // mProceedButton = (Button) findViewById(R.id.action_proceed);
-        //  mProceedButton.setOnClickListener(this);
-
 
         mBackButton.setOnClickListener(new View.OnClickListener() {
 
@@ -41,7 +36,6 @@ public class ContactActivity extends Activity  {
                     e.printStackTrace();
                 }
                 // Intent i = new Intent(ContactActivity.this, MainActivity.class);
-
 
                 startActivity(intent);
 
