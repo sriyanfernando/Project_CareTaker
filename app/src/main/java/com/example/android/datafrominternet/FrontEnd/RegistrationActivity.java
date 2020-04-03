@@ -8,7 +8,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
+import com.example.android.datafrominternet.FrontEnd.validation.CheckValidation;
 
 import com.example.android.datafrominternet.R;
 
@@ -18,6 +18,14 @@ public class RegistrationActivity  extends AppCompatActivity {
     Button register;
     EditText phonenumber;
     EditText password;
+
+    CheckValidation checkValidation;
+
+    public CheckValidation getInstance()
+    {
+        checkValidation = new CheckValidation();
+        return checkValidation;
+    }
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,32 +44,27 @@ public class RegistrationActivity  extends AppCompatActivity {
         });
     }
 
-    boolean isEmpty(EditText text) {
-        CharSequence str = text.getText().toString();
-        return TextUtils.isEmpty(str);
-    }
+    /**
+     * Input Data Validation
+     */
+    private void checkDataValidation()
+    {
 
-    boolean isTelephoneNumber(EditText text) {
-        CharSequence phone = text.getText().toString();
-        return (!TextUtils.isEmpty(phone) && Patterns.PHONE.matcher(phone).matches());
-    }
-
-    private void checkDataValidation() {
-
-
-        if(isTelephoneNumber(phonenumber) == false){
-            phonenumber.setError("Phone Number is required");
+        if(getInstance().isTelephoneNumber(phonenumber) == false)
+        {
+            phonenumber.setError("Correct Phone Number is required");
         }
 
-        if (isEmpty(password))
+        if(getInstance().isTelephoneNumberLimitCheck(phonenumber) == false)
+        {
+            phonenumber.setError("Phone number  can not more than 10 ");
+        }
+
+        if (getInstance().isEmpty(password))
         {
             password.setError("Password is required");
         }
-
-
-
     }
-
 
     @Override
     protected void onStart()
