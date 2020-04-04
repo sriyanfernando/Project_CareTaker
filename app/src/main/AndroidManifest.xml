@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.android.datafrominternet.FrontEnd.RegistrationActivity"/>
+        <activity android:name="com.example.android.datafrominternet.FrontEnd.LoginActivity"/>
         <activity android:name="com.example.android.datafrominternet.FrontEnd.MainActivity"/>
 
         <activity android:name="com.example.android.datafrominternet.FrontEnd.ContactActivity"/>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "704097909648",
+    "firebase_url": "https://androidappcaretaker.firebaseio.com",
+    "project_id": "androidappcaretaker",
+    "storage_bucket": "androidappcaretaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704097909648:android:041521aa2c904b52265115",
+        "android_client_info": {
+          "package_name": "com.example.fernando.myapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704097909648-tpiafg8fbo3ikfe7m45bra7se424bbkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVdnPJgrEgX-dhbbwxO97hWORzmtH-KtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704097909648-tpiafg8fbo3ikfe7m45bra7se424bbkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
